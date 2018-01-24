@@ -132,3 +132,19 @@ SUPER <- GAPIT(
 	sangwich.bottom="SUPER", 
 	LD=0.1,
 	)
+
+# do model comparison, manual sets rel to 100, Im setting to 10 to runtime reasons
+# this did not work, the tutorial uses numerical data??
+# It seems this would be good to get to work to see which model is best suited for the 
+# data. Need to look at this more closely.
+myCV<-read.csv('../analysis1/GAPIT.PCA.csv')
+SUPER <- GAPIT.Power.compare(
+	Y=myY,
+	G=myG,
+	CV=myCV,
+	rel=100,
+	h2=0.9,
+	NQTN=5
+	)
+
+
