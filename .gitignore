@@ -7,3 +7,4 @@
 VCFtoHAPMAP/*.vcf
 VCFtoHAPMAP/*.ped
 VCFtoHAPMAP/*.hmp.txt
+!make_pca.R
