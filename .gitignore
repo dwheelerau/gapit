@@ -5,3 +5,5 @@
 !VCFtoHAPMAP/*
 !VCFtoHAPMAP/
 VCFtoHAPMAP/*.vcf
+VCFtoHAPMAP/*.ped
+VCFtoHAPMAP/*.hmp.txt
