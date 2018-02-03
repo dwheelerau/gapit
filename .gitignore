@@ -2,3 +2,6 @@
 !README.md
 !example.R
 !.gitignore
+!VCFtoHAPMAP/*
+!VCFtoHAPMAP/
+VCFtoHAPMAP/*.vcf

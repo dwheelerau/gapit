@@ -1,0 +1,29 @@
+PLINK v1.90b4 64-bit (20 Mar 2017)
+Options in effect:
+  --allow-no-sex
+  --out myplinkp1
+  --pheno trait_dot_plink.txt
+  --recode 12
+  --vcf combined.freebayes.p1.annot.q30.chmfix.vcf
+
+Hostname: dave-XubuntuVM
+Working directory: /home/dwheeler/projects/Rosie/quant/gapit/rosie/gapit/VCFtoHAPMAP
+Start time: Sat Feb  3 12:08:08 2018
+
+Random number seed: 1517620088
+23693 MB RAM detected; reserving 11846 MB for main workspace.
+--vcf: myplinkp1-temporary.bed + myplinkp1-temporary.bim +
+myplinkp1-temporary.fam written.
+1153933 variants loaded from .bim file.
+18 people (0 males, 0 females, 18 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to myplinkp1.nosex .
+18 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 18 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.972616.
+1153933 variants and 18 people pass filters and QC.
+Phenotype data is quantitative.
+--recode ped to myplinkp1.ped + myplinkp1.map ... done.
+
+End time: Sat Feb  3 12:08:10 2018
