@@ -8,9 +8,9 @@ Options in effect:
 
 Hostname: dave-XubuntuVM
 Working directory: /home/dwheeler/projects/Rosie/quant/gapit/rosie/gapit/VCFtoHAPMAP
-Start time: Sat Feb  3 12:08:08 2018
+Start time: Sat Feb  3 12:59:35 2018
 
-Random number seed: 1517620088
+Random number seed: 1517623175
 23693 MB RAM detected; reserving 11846 MB for main workspace.
 --vcf: myplinkp1-temporary.bed + myplinkp1-temporary.bim +
 myplinkp1-temporary.fam written.
@@ -26,4 +26,4 @@ Total genotyping rate is 0.972616.
 Phenotype data is quantitative.
 --recode ped to myplinkp1.ped + myplinkp1.map ... done.
 
-End time: Sat Feb  3 12:08:10 2018
+End time: Sat Feb  3 12:59:37 2018

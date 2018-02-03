@@ -71,9 +71,14 @@ setwd("./analysis1")
 #	group.by=1)
 
 # the last three lines turn compression OFF because all the data is 
-# used. # my understanding of compression is that you cluster data then
+# used. They turn it off because group.from and group.to are the same!
+#" mixed linear model (where group.to and group.from are set equal to the
+#sample size)."
+# my understanding of compression is that you cluster data then
 # use a central point to repressent all those data points. This reduces
 # the possible model space.
+# You can manually mix the compression by adjusting group.from (Def 0),
+# group.to (Default sample size), group.by (default 10).
 
 # The Major.allele.zero controls the direction (sign) of the reported
 # effect on the trait. For example + sign means, relative to the minor 
@@ -138,6 +143,7 @@ SUPER <- GAPIT(
 # It seems this would be good to get to work to see which model is best suited for the 
 # data. Need to look at this more closely.
 myCV<-read.csv('../analysis1/GAPIT.PCA.csv')
+
 SUPER <- GAPIT.Power.compare(
 	Y=myY,
 	G=myG,
